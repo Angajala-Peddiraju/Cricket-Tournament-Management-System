@@ -1,0 +1,44 @@
+.dashboard{
+    flex:1;
+    padding:30px;
+    background:#f4f6f9;
+    min-height:100vh;
+}
+
+.dashboard-title{
+    margin-bottom:20px;
+    color:#2c3e50;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+
+.card{
+    width:220px;
+    background:white;
+    border-radius:12px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
+}
+
+.card h1{
+    color:#0077ff;
+    margin-top:10px;
+}
+
+.info-box{
+    margin-top:40px;
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
+}
+
+.info-box p{
+    margin:10px 0;
+}
