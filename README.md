@@ -1,6 +1,6 @@
 # 🏏 Cricket Tournament Management System (CTMS)
 
-A full-stack MERN application for managing cricket tournaments. Team managers can register teams and players, schedule matches, and record ball-by-ball scores on a live scoreboard, all from a single dashboard.
+A full-stack MERN application for managing cricket tournaments. Team managers can register teams and players, schedule matches, and record ball-by-ball scores on a live scoreboard, all from a single d...
 
 [Report Bug](https://github.com/Angajala-Peddiraju/Cricket-Tournament-Management-System/issues) · [Request Feature](https://github.com/Angajala-Peddiraju/Cricket-Tournament-Management-System/issues)
 
@@ -27,7 +27,7 @@ A full-stack MERN application for managing cricket tournaments. Team managers ca
 
 Running a cricket tournament usually means juggling spreadsheets, manual score sheets, and repeated updates. CTMS brings team management, match scheduling, and live scoring into one web application.
 
-The React frontend (built with Vite) talks to a RESTful Node.js and Express backend over Axios. Data is stored in MongoDB through Mongoose, and access is protected with JWT authentication and role-based access control.
+The React frontend (built with Vite) talks to a RESTful Node.js and Express backend over Axios. Data is stored in MongoDB through Mongoose, and access is protected with JWT authentication and role-bas...
 
 ---
 
@@ -47,11 +47,11 @@ The React frontend (built with Vite) talks to a RESTful Node.js and Express back
 
 | Login | Dashboard |
 |---|---|
-| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) |
+| ![Login](login.png) | ![Dashboard](dashboard.png) |
 
 | Match Scheduling | Live Scoreboard |
 |---|---|
-| ![Matches](screenshots/matches.png) | ![Scoreboard](screenshots/scoreboard.png) |
+| ![Matches](matches.png) | ![Scoreboard](scoreboard.png) |
 
 ---
 
@@ -70,10 +70,10 @@ The React frontend (built with Vite) talks to a RESTful Node.js and Express back
 ## System Architecture
 
 ```
-┌──────────────┐    HTTP / Axios    ┌────────────────────┐    Mongoose    ┌───────────────┐
+┌──────────────┐    HTTP / Axios    ┌────────────────────┐    Mongoose    ┌───────────────��[...]
 │  React.js    │ ─────────────────► │  Express.js REST   │ ─────────────► │ MongoDB Atlas │
 │  (Vite)      │ ◄───────────────── │  API (Node.js)     │ ◄───────────── │               │
-└──────────────┘        JSON        └────────────────────┘                └───────────────┘
+└──────────────┘        JSON        └────────────────────┘                └───────────────��[...]
                                        │
                                        └── JWT Auth + Role-Based Access Control
 ```
