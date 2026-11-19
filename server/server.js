@@ -10,12 +10,14 @@ const scoreboardRoutes = require("./routes/scoreboardRoutes");
 const dashboardRoutes = require("./routes/dashboardRoutes");
 const app=express();
 app.use(express.json());
-app.use(
-    cors({
-        origin: ["http://localhost:5173", "http://localhost:5174"],
-        credentials: true
-    })
-);
+app.use(cors({
+  origin: [
+    "https://cricket-tournament-frontend-3an0.onrender.com",
+    "http://localhost:5173"
+  ],
+  methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"]
+}));
 const port=process.env.PORT || 5000;
 
 connectDB();
