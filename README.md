@@ -4,6 +4,18 @@ A full-stack MERN application for managing cricket tournaments. Team managers ca
 
 [Report Bug](https://github.com/Angajala-Peddiraju/Cricket-Tournament-Management-System/issues) · [Request Feature](https://github.com/Angajala-Peddiraju/Cricket-Tournament-Management-System/issues)
 
+
+## 🚀 Live Demo
+
+- **Frontend:** https://cricket-tournament-frontend-3an0.onrender.com
+- **Backend API:** https://cricket-tournament-backend-rmr4.onrender.com
+
+> ⏳ Hosted on Render's free plan, so the first load may take 30-60 seconds while the server wakes up.
+
+### Demo Login
+- Email: `demo@gmail.com`
+- Password: `Demo@123`
+
 ---
 
 ## Table of Contents
